@@ -1,0 +1,110 @@
+/*@font-face {
+	font-family: vinyl;
+	src: url("vinyl_stickons.ttf");
+}*/
+
+body {
+	/*font-family: 'Open Sans', sans-serif;*/
+	background: lightblue;
+}
+
+h1 {
+	font-family: vinyl;
+}
+
+h4 {
+	margin: 5px auto;
+}
+
+h4:first-child{
+	margin: 10px auto 3px auto;
+}
+
+h4:nth-child(6) {
+	margin: 8px auto 5px auto;
+}
+
+h4:nth-child(8), h4:nth-child(11){
+	margin: 5px auto 0px auto;
+}
+
+
+
+.wrapper {
+	width: 100%;
+}
+
+.form_wrapper {
+	
+	margin: 0 auto;
+	width: 80%;
+	min-width: 320px;
+	max-width: 400px;
+	border: 1px solid;
+}
+ div.wrapper h1 {
+	text-align: center;
+	margin: 20px;
+}
+
+footer {
+	text-align: center;
+	display: block;
+}
+
+
+
+form, button {
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+
+
+div.gender_wrap input{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+button {
+	display: block;
+	margin: 15px auto -10px auto;
+}
+
+input {
+	margin: 0px auto 8px auto;
+	width: 165px;
+	display: block;
+
+}
+
+input.gender {
+	width: 10px;
+	margin: 6px 5px;
+}
+
+select {
+	width: 165px;
+	margin: 0px auto 10px auto;
+}
+
+
+p.artist_bio {
+	margin: 10px auto;
+	padding: 10px;
+	
+	max-width: 35em;
+	display: block;
+}
+
+@media screen and (min-width: 480px) {
+	p.artist_bio {
+		min-width: 25em;
+	}
+
+}
+
+
+
+
